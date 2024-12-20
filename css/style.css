@@ -1,0 +1,105 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v18-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/inter-v18-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  background-color: #141414;
+}
+
+.main {
+  margin: 174px auto;
+  background-color: #1f1f1f;
+  width: 384px;
+  height: 100%;
+}
+
+.container {
+  padding: 40px 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  margin-top: 24px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+
+  color: #fff;
+}
+
+.text2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 4px;
+
+  color: #c4f82a;
+}
+
+.text3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 24px;
+
+  color: #ffffff;
+}
+
+.button-text {
+  margin-top: 24px;
+}
+
+.button-text button {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  padding: 12px 127px;
+  color: #ffffff;
+  background-color: #333333;
+  border: none;
+  width: 304px;
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+}
